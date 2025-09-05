@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Golu Mods</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background: #0a0a1a;
+      color: white;
+      text-align: center;
+    }
+
+    .container {
+      margin-top: 100px;
+    }
+
+    h1 {
+      color: #00f5ff;
+      font-size: 2.5rem;
+      text-shadow: 0px 0px 10px #00f5ff;
+    }
+
+    p {
+      margin: 10px 0 30px;
+      color: #bbb;
+    }
+
+    .key-box {
+      border: 1px solid #00f5ff;
+      padding: 20px;
+      border-radius: 10px;
+      background: rgba(0, 245, 255, 0.1);
+      width: 300px;
+      margin: auto;
+      margin-bottom: 20px;
+      box-shadow: 0 0 20px rgba(0,245,255,0.5);
+    }
+
+    .key {
+      font-weight: bold;
+      font-size: 1.2rem;
+      margin-bottom: 10px;
+      color: #fff;
+    }
+
+    button {
+      padding: 10px 20px;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      font-weight: bold;
+      background: linear-gradient(90deg, #00f5ff, #007bff);
+      color: #000;
+      transition: 0.3s;
+    }
+
+    button:hover {
+      opacity: 0.8;
+    }
+
+    footer {
+      margin-top: 50px;
+      font-size: 0.9rem;
+      color: #888;
+    }
+
+    footer a {
+      color: #00f5ff;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Golu Mods</h1>
+    <p>Welcome to the official Golu Mods hub!<br>Join our community and get the latest updates.</p>
+
+    <div class="key-box">
+      <div class="key" id="key">Xenx-FreeKey24h-UpdateV7</div>
+      <button onclick="copyKey()">Copy Key</button>
+    </div>
+
+    <a href="https://t.me/yourtelegram" target="_blank">
+      <button>Join Our Telegram</button>
+    </a>
+  </div>
+
+  <footer>
+    © 2025 God x Mods Team. All rights reserved. <br>
+    <a href="https://t.me/yourtelegram" target="_blank">Contact us on Telegram</a>
+  </footer>
+
+  <script>
+    function copyKey() {
+      const keyText = document.getElementById("key").innerText;
+      navigator.clipboard.writeText(keyText);
+      alert("Key copied: " + keyText);
+    }
+  </script>
+</body>
+</html>
